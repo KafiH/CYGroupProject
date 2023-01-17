@@ -1,0 +1,42 @@
+#nav{
+    width: 100%;
+    background-color: rgb(160, 132, 160);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+#proCon{
+    margin: 3px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(79, 3, 82);
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+#userScore{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+#achiev{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(8, 7, 7);
+}
+#homeLink{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+#menButn{
+    margin: 5px;
+    background-color: rgb(112, 89, 109);
+}
+.hiddenNav{
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(8, 7, 7);
+}
