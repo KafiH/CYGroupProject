@@ -30,6 +30,8 @@
 body{
     text-align: center;
     background-color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
 }
 
 .landingHeader{
@@ -43,4 +45,9 @@ h3{
 article {
     background-color:rgb(247, 233, 215);
     font-family: 'Didact Gothic', sans-serif;
+}
+
+footer{
+    padding-top: 1px;
+    margin-top: 30px;
 }
