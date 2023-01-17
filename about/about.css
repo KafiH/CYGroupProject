@@ -1,9 +1,14 @@
+body{
+    background-color:lightgray ;
+}
 #dev{
     width: 800px;
-    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
-    margin-right: 25px;
-    background-color: lightgray;
+    border-style: solid ;
+    background-color:white;
     border-radius: 25px;
     text-align: center;
     
@@ -18,9 +23,18 @@
         background-color: gray;
         position: relative;
         float: left;
+        border-style: solid ;
 
 }
 
 .connect{
     display: inline-block;
+}
+
+.centered{
+    text-align: center;
+    width:900px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
