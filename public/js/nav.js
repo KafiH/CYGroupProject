@@ -1,53 +1,50 @@
-// -- Head 
+// -- * links need to be changed to match page links on server *
+
+// ## Head 
+// -- * I would like to dynamically link favicon here *
 // var head = document.querySelector("head");
 // var link = document.createElement("link");
 // link.rel = "stylesheet";
 // link.href = "/css/nav.css"; 
 // head.appendChild(link);
 
-// -- Body
+// ## Body
 
-// -- Nav div
+// # Nav div
 const  nav = document.createElement('nav');
-
     nav.id="nav";
-
 document.body.appendChild(nav);
 
-// -- Profile Icon requires code connected to a DB to pull user intitials
+// -- # Profile Link 
+// -- *  requires code connected to a DB to pull user intitials *
+// -- *  link to sign in page if user === 'Null'  *
 const profileIcon = document.createElement('a');
-
     profileIcon.innerHTML="JD";
     profileIcon.href="/profile";
     profileIcon.id="proCon";
-
 nav.appendChild(profileIcon);
 
-// -- Display User Score as link to global leader board
+// -- # Leader Board Link
+// -- * link to global leader board db to display user score *
 const userScore = document.createElement('a');
-
     userScore.innerHTML = "Score"; // -- placeholder text
     userScore.href = "/leaderBoard";
     userScore.id="userScore";
-
 nav.appendChild(userScore);
 
-// -- present icon with notification counter that links to the shop (achievement redemption, customizables)
+// -- # Shop Link
+// -- * Would like a 'present' icon with a notification counter *
 const achivements = document.createElement('a');
-
     achivements.innerHTML = "Present"; // -- placeholder text
     achivements.href = "/leaderBoard";
     achivements.id="achiev"
-
 nav.appendChild(achivements);
 
-// -- Home Button
+// -- # Home Button
 const homeCon = document.createElement('a');
-
     homeCon.innerHTML = "WD101";
     homeCon.href="/";
     homeCon.id="homeLink";
-
 nav.appendChild(homeCon);
 
 
@@ -58,8 +55,10 @@ nav.appendChild(homeCon);
 //     menButn.id="menButn"
 // nav.appendChild(menButn);
 
-// -- * links need to be changed to match page links on server *
-// -- Defining hidden nav links
+
+
+// -- #Site Nav Links: Basic
+// -- * would like these to be hidden by the menu button onclick
 const about = document.createElement('a');
     about.innerHTML='About';
     about.href='/about';
@@ -71,12 +70,15 @@ const curriculum = document.createElement('a');
     curriculum.href='/curriculum';
     curriculum.className="hiddenNav";
 nav.appendChild(curriculum);
+
 const contactUs = document.createElement('a');
     contactUs.innerHTML='Contact Us';
     contactUs.href='/contactus';
     contactUs.className="hiddenNav";
 nav.appendChild(contactUs);
 
+
+// -- Hidden Nav function
 
 // var options = document.getElementsByClassName('hiddenNav');
 // menButn.addEventListener("click", function() {
