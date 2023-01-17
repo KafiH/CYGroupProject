@@ -24,6 +24,7 @@ const profileIcon = document.createElement('a');
     profileIcon.id="proCon";
 nav.appendChild(profileIcon);
 
+
 // -- # Leader Board Link
 // -- * link to global leader board db to display user score *
 const userScore = document.createElement('a');
