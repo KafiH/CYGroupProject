@@ -13,6 +13,9 @@ app.get('/', (req,res)=>{
 app.get('/landing', (req,res)=>{
 	res.render("landing")
 })
+app.get('/roadMap', (req,res)=>{
+	res.render("roadMap")
+})
 
 app.get('/contactus', (req,res)=>{
 	res.render("contactus")
