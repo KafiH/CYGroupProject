@@ -14,6 +14,10 @@ app.get('/landing', (req,res)=>{
 	res.render("landing")
 })
 
+app.get('/contactus', (req,res)=>{
+	res.render("contactus")
+})
+
 app.listen(port,()=>
 console.log(`Server running on port ${port}!`)
 )
