@@ -7,7 +7,7 @@ app.set("view engine", "ejs")
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req,res)=>{
-    res.render("landing")
+    res.render("landing1")
 })
 app.get('/nav', (req,res)=>{
     res.render("nav")
