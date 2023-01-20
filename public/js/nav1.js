@@ -73,7 +73,7 @@ rightNavGroup.appendChild(about);
 
 const  curriculum = document.createElement('a');
     curriculum.innerHTML = "Curriculum";
-    curriculum.href="/curriculum";
+    curriculum.href="/roadMap";
     curriculum.className='rightNav';
 rightNavGroup.appendChild(curriculum);
 
