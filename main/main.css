@@ -1,0 +1,20 @@
+xmp,.xmp{
+    color: #3a2e1c;
+    font-size:16px ;
+}
+
+body{
+    background-color:#dec096 ;
+}
+h3,h4{
+    text-align: center;
+}
+#examp{
+    width: 280px;
+   
+    font-weight: bold;
+    
+    
+    border-radius: 25px;
+    background-color:white ;
+}

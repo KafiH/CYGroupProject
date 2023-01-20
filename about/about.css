@@ -1,5 +1,5 @@
 body{
-    background-color:lightgray ;
+    background-color:#9a7b4f ;
 }
 #dev{
     width: 800px;
@@ -8,7 +8,7 @@ body{
     margin-right: auto;
     padding: 5px;
     border-style: solid ;
-    background-color:white;
+    background-color:#dec096;
     border-radius: 25px;
     text-align: center;
     
@@ -20,7 +20,7 @@ body{
         width:4%;
         padding: 50px;
         border-radius: 50%;
-        background-color: gray;
+        background-color: #9c7743;
         position: relative;
         float: left;
         border-style: solid ;
