@@ -1,25 +1,78 @@
-xmp,.xmp{
+
+.xmp {
+    text-align: left;
     color: #3a2e1c;
-    font-size:16px ;
+    font-size: 16px;
+
+
 }
 
-body{
-    background-color:#dec096 ;
+body {
+    background-color: #9a7b4f;
 }
-h3,h4{
-    text-align: center;
+
+
+
+#examp3 {
+    width: 210px;
+    border-style: solid ;
+    border-width: 2px;
+
+    font-weight: bolder;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: white;
 }
-#examp{
-    width: 280px;
-   
-    font-weight: bold;
-    
+
+#examp1 {
+
+    text-align: left;
+    padding: 5px;
+    border-style: solid;
+    background-color: #dec096;
+    border-radius: 25px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 25px;
-    background-color:white ;
 }
-#examp2{
+
+#examp2 {
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto;
+    text-align: left;
+    padding: 5px;
+    border-style: solid;
+    background-color: #dec096;
+    border-radius: 25px;
+    width: 1000px;
+    padding: 5px;
+}
+
+#examp4 {
+    width: 950px;
+}
+
+#intro {
+    text-align: center;
+}
+
+#examp5 {
+    border-style: solid;
+    background-color: #dec096;
+    border-radius: 25px;
+    width: 990px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    background-color: white;
+}
+
+#toquiz{
+    background-color:#624d30;
+    width: 100%;
+    color: white;
+    text-decoration: none;
 }
