@@ -79,6 +79,6 @@ rightNavGroup.appendChild(curriculum);
 
 const contact = document.createElement('a');
     contact.innerHTML = "Contact";
-    contact.href="/contact";
+    contact.href="/contactus";
     contact.className='rightNav';
 rightNavGroup.appendChild(contact);
