@@ -10,11 +10,14 @@ body{
     display:flex;
     flex-direction:column;
     align-self: center;
-    
+    padding-top: 20px;
+
 }
 #titleCard{
     text-align: center;
     background-color:rgb(240, 189, 122);
+    padding: 10px;
+    
 
 }
 #titleCard>h1{
@@ -26,7 +29,8 @@ body{
     width: 50%;
     display: flex;
     flex-direction: column;
-    
+    padding-top: 50px;
+    padding-bottom: 100px;
     align-self:center;
 }
 .curriculumButtons{
