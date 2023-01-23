@@ -37,23 +37,23 @@ let scoreList = [];
 //Questions
 var questions = [
     {//Q-0-
-    question: "Which type of JavaScript language is ___",
-    answers:["Object-Oriented", "Object-Based", "Assembly-language", "High-level"],
+    question: "What does HTML stand for?",
+    answers:["HyperTyped Machine Language", "HyperText Markup Language", "Hello To My Llama", "Harry Took My Lunch"],
     correctAnswer: "1"
     },
     {//Q-1-
-        question: "Which one of the following also known as Conditional Expression:",
-        answers:["Alternative to if-else","Switch statement","If-then-else statement","immediate if"],
+        question: "Choose the correct HTML element for the largest heading:",
+        answers:["<head>","<heading>","<h6>","<h1>"],
         correctAnswer: "3"
     },
     {//Q-2-
-    question: "In JavaScript, what is a block of statement?",
-    answers:["Conditional block","block that combines a number of statements into a single compound statement","both conditional block and a single statement","block that contains a single statement"],
+    question: "What is always the first line of an HTML web page?",
+    answers:["<html>","<!DOCTYPE html>","<title>","</html>"],
     correctAnswer: "1"
     },
     {//Q-3-
-        question: "When interpreter encounters an empty statements, what it will do:",
-        answers:["Shows a warning","Prompts to complete the statement","Throws an error","Ignores the statements"],
+        question: "What is the correct HTML element for inserting a line break?",
+        answers:["<lb>","<break>","<brk>","<br>"],
         correctAnswer: "3"
     } 
 ];
