@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+main{
+    margin-top: 100px;
+    
+    width: 70%;
+    background-color: gray;
+}
+#heading{
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    color:rgb(76, 7, 10);
+    background-color: rgb(240, 189, 122);
+    
+}
+#subBanner{
+    padding: 10px;
+    text-align: left;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(240, 189, 122);
+    
+    background-color: rgb(175, 112, 4);
+}
+#largeBox{
+    padding: 10px;
+    height: 100%;
+    background-color: rgb(240, 189, 122);
+    display:flex;
+    justify-content: center;
+    
+}
+#contentCard{
+    background-color: antiquewhite;
+}
+#titleCard{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#titleCard>h5{
+    margin: 5px;
+    padding: 10px 20px;
+    /* border: 1px solid black; */
+}
+/* table{
+    
+} */
+tr:hover{
+    background-color:rgb(240, 212, 175) ;
+}
+
+/* th{
+
+    font-size: 1.3rem;
+    text-align: left;
+    color: rgb(76, 7, 10);
+    border: 1px solid rgb(175, 112, 4); 
+   
+} */
+td{
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    color: rgb(140, 38, 44);
+    text-align: left;
+    border-bottom: 1px solid rgb(175, 112, 4);
+}
+a{
+    font-size: 1.3rem;
+    color: rgb(140, 38, 44);
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
