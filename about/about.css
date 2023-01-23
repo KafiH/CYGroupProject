@@ -10,10 +10,7 @@ body{
     border-style: solid ;
     background-color:#dec096;
     border-radius: 25px;
-    text-align: center;
-    
-
-    
+    text-align: center;   
 }
 
 .pic{
@@ -46,4 +43,8 @@ padding: 20px;
 border-style: solid ;
 border-radius: 25px;
 
+}
+
+.para{
+    width: 850px;
 }
