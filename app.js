@@ -18,8 +18,8 @@ app.get('/', (req,res)=>{
 app.get('/roadMap', (req,res)=>{
 	res.render("roadMap")
 })
-app.get('/nav', (req,res)=>{
-	res.render("nav")
+app.get('/summary', (req,res)=>{
+	res.render("summary")
 })
 
 app.get('/contactus', (req,res)=>{
@@ -28,6 +28,9 @@ app.get('/contactus', (req,res)=>{
 
 app.get('/quiz', (req,res)=>{
 	res.render("quiz")
+// -- Test Pages
+app.get('/nav', (req,res)=>{
+	res.render("nav")
 })
 
 app.listen(port,()=>
