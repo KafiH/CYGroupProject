@@ -1,0 +1,45 @@
+body{
+    background-color:#9a7b4f ;
+}
+#dev{
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-style: solid ;
+    background-color:#dec096;
+    border-radius: 25px;
+    text-align: center;   
+}
+
+.pic{
+        width:4%;
+        padding: 50px;
+        border-radius: 50%;
+        background-color: #9c7743;
+        position: relative;
+        float: left;
+        border-style: solid ;
+}
+
+.connect{
+    display: inline-block;
+}
+
+.centered{
+    text-align: center;
+    width:900px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#info{
+text-align: left;
+margin-left: auto;
+background-color:#dec096;
+padding: 20px;
+border-style: solid ;
+border-radius: 25px;
+
+}

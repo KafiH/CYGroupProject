@@ -1,3 +1,6 @@
+
+Group Project
+
 # Intake 8 Final Project
 
 UNTITLED: Coding Curriculum App
@@ -28,4 +31,5 @@ Teaches clients coding languages in a gamified experience
 
 # The DataBase
 // -- we could have a .json with example users to display profile/leader board
+
 
