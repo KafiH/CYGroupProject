@@ -20,11 +20,11 @@ document.body.appendChild(nav);
 
 
 
-// -- div to format left nav links
+// -- LEFT NAV CONTAINER
 const leftNavGroup = document.createElement('div');
     leftNavGroup.id='leftNavGroup';
 nav.appendChild(leftNavGroup);
-// -- left nav links
+
 
 // -- Profile Icon
 const profileIcon = document.createElement('a');
@@ -33,22 +33,25 @@ const profileIcon = document.createElement('a');
     profileIcon.id="proCon";
 leftNavGroup.appendChild(profileIcon);
 
-// -- # Shop Link
-// -- * Would like a 'present' icon with a notification counter *
+// -- # Redemptions Link
 const achievLink = document.createElement('a');
     achievLink.href="/shop";
     achievLink.id="achievLink";
 leftNavGroup.appendChild(achievLink);
 
+// -- * DYNAMIC ADDITONS: Would like a 'present' icon with a notification counter *
 const achievements = document.createElement('img');
-    achievements.src="/img/presentExample.png"; // -- image needs a div with a function that displays the number of 'achievements'
+// -- * DYNAMIC ADDITIONS: image needs a div with a function that displays the number of 'achievements' *
+    achievements.src="/img/presentExample.png"; 
     achievements.link = "/shop";
     achievements.id="achiev"
 achievLink.appendChild(achievements);
 
 // -- Leader board
 const userScore = document.createElement('a');
-    userScore.innerHTML = "<b>1000 Xp</b>"; // -- placeholder text create function that displays from leaderboard
+// --  (Placeholder Text)
+//-- * DYNAMIC ADDITIONS: create function that displays from leaderboard *
+    userScore.innerHTML = "<b>1000 Xp</b>"; 
     userScore.href = "/leaderBoard";
     userScore.id="userScore";
 leftNavGroup.appendChild(userScore);
@@ -59,7 +62,8 @@ const homeCon = document.createElement('a');
     homeCon.href="/";
     homeCon.id="homeLink";
 nav.appendChild(homeCon);
-// -- right nav container
+
+// -- RIGHT NAV CONTAINER
 const rightNavGroup = document.createElement('div');
     rightNavGroup.id='rightNavGroup';
 nav.appendChild(rightNavGroup);
