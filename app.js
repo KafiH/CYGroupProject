@@ -26,6 +26,8 @@ app.get('/contactus', (req,res)=>{
 	res.render("contactus")
 })
 
+app.get('/quiz', (req,res)=>{
+	res.render("quiz")
 // -- Test Pages
 app.get('/nav', (req,res)=>{
 	res.render("nav")
