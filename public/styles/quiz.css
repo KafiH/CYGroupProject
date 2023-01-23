@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+* {
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+html, body {
+    height: 100%;
+    background-color: rgba(255, 250, 240, 0.801);
+}
+
+header{
+    margin-bottom: 35px;
+    margin-top: 12%;
+    padding: 10px;
+}
+
+body {
+  
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-bottom:  100px;
+}
+
+
+#questions, #final, #highscores
+{
+    display: none;  
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px 5px black;
+    padding: 25px;
+  } 
+
+  .result{
+    display: none;
+  }
+
