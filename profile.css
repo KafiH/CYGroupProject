@@ -1,150 +1,275 @@
-/* Full-width input fields */
-input[type=text],
-input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
 
-/* Set a style for all buttons */
-button {
-  background-color: #000008;
-  color: white;
-  padding: 10px 20px;
-  margin: 10px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  position: relative;
-  align-items: center;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 14px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 20%;
-  border-radius: 50%;
-}
 
 .container {
-  padding: 16px;
-  align-items: center;
-  margin-left: 5px;
+ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto;
-  /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%;
-  /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 1.0s
-}
-
-@-webkit-keyframes animatezoom {
-  from {
-    -webkit-transform: scale(0)
-  }
-
-  to {
-    -webkit-transform: scale(1)
-  }
-}
-
-@keyframes animatezoom {
-  from {
-    transform: scale(0)
-  }
-
-  to {
-    transform: scale(1)
-  }
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
+.profpic {
+    height: 10em;
+    width: 10em;
+    border-radius: 100%;
+    overflow: hidden;
+   
+    margin-right: 10px;
     display: block;
-    float: none;
-  }
-
-  .cancelbtn {
-    width: 100%;
-  }
+    margin: 0 auto;
+}
+ h1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ }
+.linkedin {
+    width: 2em;
+    height: 2em;
 }
 
-h2 {
-  position: relative;
-  align-items: center;
+.fa-brands fa-github {
+    width: 15em;
+    margin-right: 2px;
+}
 
+.column {
+    height: 50em;
+    float: left;
+    width: 35%;
+    background-color: rgb(220, 217, 217);
+    border: thin solid black; /*adds a thin border*/
+    box-shadow: 5px 5px 5px gray; /* adds a shadow */
+}
+
+body{
+    background-color:blanchedalmond
+}
+.text-box {
+    background-color: white;
+
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .score {
+    display: flex;
+    align-items: center;
+    position: absolute; /* allow the star image to be positioned absolutely */
+    left: 26%; /* position the star image in the middle of the social-icons container */
+    top: 43%;
+    
+    transform: translateX(-50%); /* move the trophy image to the left to center it */
+  }
+  
+  .star {
+    width: 2em;
+    height: 2em;
+    margin:auto;
+}
+.numscore{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.beepers-container {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+  }
+  .beeper {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 10px;
+  }
+  
+  /* Style for the 5 lit up beepers */
+  .beeper:nth-child(-n+5) {
+    background-color: green;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      width: 100%; /* make the table full width when the screen size is less than 600px */
+    }
+  
+    .column1 {
+      width: 50%; /* adjust the width of the images when the screen size is less than 600px */
+      
+    }
+  }
+  .column1 {
+    width: 50%; /* adjust the width of the images when the screen size is less than 600px */
+    margin: 10px;
+   
+}
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+/* Main-content  */
+
+
+h4 {
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+  }
+ 
+  .learning{
+    height: 10px;
+  }
+h5{
+    background-color: rgb(213, 74, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.progress-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .progress-icon {
+    position: absolute;
+    left: 10px;
+    width: 60px;
+  }
+  
+  .progress-bar {
+    width: 90%;
+    height: 24px;
+    background-color: #333333;
+    border-radius: 12px;
+    position: relative;
+    left: 10%;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background-color: #ffa500;
+    border-radius: 12px;
+    transition: width 0.25s ease-in-out;
+  }
+  
+  .progress-bar-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+  }
+/* second progress bar CSS */
+
+  .progress-container1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .progress-icon1 {
+    position: absolute;
+    left: 10px;
+    width: 60px;
+  }
+  
+  .progress-bar1 {
+    width: 90%;
+    height: 24px;
+    background-color: #333333;
+    border-radius: 12px;
+    position: relative;
+    left: 10%;
+  }
+  
+  .progress-bar-fill-1 {
+    height: 100%;
+    background-color: #3040b4;
+    border-radius: 12px;
+    transition: width 0.25s ease-in-out;
+  }
+  
+  .progress-bar-text-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+  }
+/* for the thrid progress bar */
+.progress-container2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .progress-icon2 {
+    position: absolute;
+    left: 10px;
+    width: 60px;
+  }
+  
+  .progress-bar2 {
+    width: 90%;
+    height: 24px;
+    background-color: #333333;
+    border-radius: 12px;
+    position: relative;
+    left: 10%;
+  }
+  
+  .progress-bar-fill-2 {
+    height: 100%;
+    background-color: #e1ea36;
+    border-radius: 12px;
+    transition: width 0.25s ease-in-out;
+  }
+  
+  .progress-bar-text-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+  }
+/* embeded codepen  */
+.codepen {
+    width: 50%;
+    height: 300px;
+    float: left;
+    padding-left: 10%;
 }
