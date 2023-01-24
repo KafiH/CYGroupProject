@@ -29,10 +29,11 @@ var scoreListEl = document.querySelector("#score-list");
 var playagainBtn = document.querySelector("#playagain");
 var clearScrBtn = document.querySelector("#clearscores");
 var introPoint = document.querySelector("#introPoint");
-let oldScoreList = JSON.parse(localStorage.getItem("scoreList"))
 
 var questionCount = 0;
+
 let scoreList = [];
+let oldScoreList = JSON.parse(localStorage.getItem("scoreList"))
 for(let i in oldScoreList){
     scoreList.push(oldScoreList[i])
 }
@@ -203,5 +204,6 @@ function clearScores() {
 
     localStorage.clear();
     scoreListEl.innerHTML="";
+    scoreList.length = 0
 }
 
