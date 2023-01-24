@@ -30,6 +30,14 @@ app.get('/quiz', (req,res)=>{
 	res.render("quiz")
 })
 
+app.get('/main', (req,res)=>{
+	res.render("main")
+})
+
+app.get('/about', (req,res)=>{
+	res.render("about")
+})
+
 
 // -- Test Pages
 app.get('/nav', (req,res)=>{
