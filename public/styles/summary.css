@@ -1,4 +1,4 @@
-body{
+.summary{
     display: flex;
     justify-content: center;
 }
@@ -74,4 +74,8 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+
+footer{
+    margin-top: 230px;
 }
