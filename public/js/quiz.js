@@ -1,5 +1,4 @@
 //Variable
-
 //Starting Section Variables
 var introEl = document.querySelector("#intro");
 var startBtn = document.querySelector("#start");
@@ -29,10 +28,14 @@ var highscoresEl = document.querySelector("#highscores");
 var scoreListEl = document.querySelector("#score-list");
 var playagainBtn = document.querySelector("#playagain");
 var clearScrBtn = document.querySelector("#clearscores");
+var introPoint = document.querySelector("#introPoint");
+let oldScoreList = JSON.parse(localStorage.getItem("scoreList"))
 
 var questionCount = 0;
 let scoreList = [];
-
+for(let i in oldScoreList){
+    scoreList.push(oldScoreList[i])
+}
 
 //Questions
 var questions = [
@@ -169,7 +172,7 @@ function addScore(event) {
      scoreListEl.innerHTML="";
      for (let i = 0; i < scoreList.length; i++) {
         let li = document.createElement("li");
-        li.textContent = `${scoreList[i].score}`;
+        li.textContent = `${scoreList[i].score}`;     
         scoreListEl.append(li);
     }
  
@@ -178,11 +181,16 @@ function addScore(event) {
 }
 
 function storeScores() {
+    console.log(oldScoreList)
+   
+    console.log(scoreList)
     localStorage.setItem("scoreList", JSON.stringify(scoreList));
-}
+    }
 
 //display scores page
 function displayScores() {
+    console.log("displayScores")
+
     let storedScoreList = JSON.parse(localStorage.getItem("scoreList"));
     if (storedScoreList !== null) {
         scoreList = storedScoreList;
@@ -191,6 +199,8 @@ function displayScores() {
 
 // clearing of scores
 function clearScores() {
+    console.log("clearScores")
+
     localStorage.clear();
     scoreListEl.innerHTML="";
 }
