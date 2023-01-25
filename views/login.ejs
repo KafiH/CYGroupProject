@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css" href="nav1.css" href="nav1.js"> 
+  <title>Document</title>
+</head>
+
+
+  <body>
+
+    <h2>Login Here</h2> 
+    <div id="model" class="modal" style="display: block;">
+      <form class="modal-content: animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <img src="https://t3.ftcdn.net/jpg/01/78/65/02/360_F_178650212_oePgGaIhKUhz0cIg2bLBGsFsdbWs5Xwj.jpg" alt="Avatar"
+            class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          
+          <button type="button"  class="button-49" style="width: 85%;"  onclick="window.location.href='landing.html'">Login</button>
+
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#6dbfe5">
+          <button type="button" onclick="window.location.href='signup.html'" class="cancelbtn">Sign Up</button>
+      
+          <span class="psw">Forgot <a href="#">password?</a> </span>
+        </div>
+      </form>
+      </div>
+          </div>
+    <div id="logged-in-user"></div>
+    <script>
+      if (loggedIn) {
+        document.getElementById("logged-in-user").innerHTML = "Welcome, " + username;
+      }
+      form.onsubmit = function () {
+        // check user credentials
+        if (credentialsAreCorrect) {
+          // set session variable or cookie to indicate that the user is logged in
+          loggedIn = true;
+          document.getElementById("logged-in-user").innerHTML = "Welcome, " + username;
+        }
+        // otherwise, show an error message
+        else {
+          alert("Incorrect username or password.");
+        }
+      }
+    </script>
+  </body>
+  
+
+</html>

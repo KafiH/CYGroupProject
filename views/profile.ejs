@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/1b2e49132c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <div class="newnav">
+        <header>
+            <script>
+
+
+                // -- 19-01-2023 basic copy to improve function
+
+
+                // ## Head 
+                var head = document.querySelector("head");
+                var link = document.createElement("link");
+                link.rel = "stylesheet";
+                href = "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Roboto&family=Shadows+Into+Light&display=swap";
+                head.appendChild(link);
+
+                // ## Body
+
+                // # Nav div
+                const nav = document.createElement('nav');
+                nav.id = "nav";
+                document.body.appendChild(nav);
+
+
+
+
+                // -- LEFT NAV CONTAINER
+                const leftNavGroup = document.createElement('div');
+                leftNavGroup.id = 'leftNavGroup';
+                nav.appendChild(leftNavGroup);
+
+
+                // -- Profile Icon
+                const profileIcon = document.createElement('a');
+                profileIcon.innerHTML = "JD";
+                profileIcon.href = "/profile";
+                profileIcon.id = "proCon";
+                leftNavGroup.appendChild(profileIcon);
+
+                // -- # Redemptions Link
+                const achievLink = document.createElement('a');
+                achievLink.href = "/shop";
+                achievLink.id = "achievLink";
+                leftNavGroup.appendChild(achievLink);
+
+                // -- * DYNAMIC ADDITONS: Would like a 'present' icon with a notification counter *
+                const achievements = document.createElement('img');
+                // -- * DYNAMIC ADDITIONS: image needs a div with a function that displays the number of 'achievements' *
+                achievements.src = "/img/presentExample.png";
+                achievements.link = "/shop";
+                achievements.id = "achiev"
+                achievLink.appendChild(achievements);
+
+                // -- Leader board
+                const userScore = document.createElement('a');
+                // --  (Placeholder Text)
+                //-- * DYNAMIC ADDITIONS: create function that displays from leaderboard *
+                userScore.innerHTML = "<b>1000 Xp</b>";
+                userScore.href = "/leaderBoard";
+                userScore.id = "userScore";
+                leftNavGroup.appendChild(userScore);
+
+                // -- # Home Button
+                const homeCon = document.createElement('a');
+                homeCon.innerHTML = "KESHB Schools";
+                homeCon.href = "/";
+                homeCon.id = "homeLink";
+                nav.appendChild(homeCon);
+
+                // -- RIGHT NAV CONTAINER
+                const rightNavGroup = document.createElement('div');
+                rightNavGroup.id = 'rightNavGroup';
+                nav.appendChild(rightNavGroup);
+
+                // -- right nav links
+                const about = document.createElement('a');
+                about.innerHTML = "About";
+                about.href = "/about";
+                about.className = 'rightNav';
+                rightNavGroup.appendChild(about);
+
+                const curriculum = document.createElement('a');
+                curriculum.innerHTML = "Curriculum";
+                curriculum.href = "/roadMap";
+                curriculum.className = 'rightNav';
+                rightNavGroup.appendChild(curriculum);
+
+                const contact = document.createElement('a');
+                contact.innerHTML = "Contact";
+                contact.href = "/contactus";
+                contact.className = 'rightNav';
+                rightNavGroup.appendChild(contact);
+            </script>
+        </header>
+    </div>
+    <div class="container">
+
+        <div class="column">
+
+            <img class="profpic"
+                src="https://github.com/KafiH/CYGroupProject/blob/main/public/img/newEgg.png?raw=true"
+                alt="Profile Picture">
+            <br><br><br>
+            <div class="text-box">
+                <h1>John Doe</h1>
+                <span>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-github fa-xl float-right"></i>
+                        <img class="linkedin" src="https://cdn-icons-png.flaticon.com/512/179/179330.png" alt=""
+                            style=" margin: 0px 10px;">
+
+                    </div>
+                    <div class="score">
+                        <img class="star"
+                            src="https://c8.alamy.com/comp/HN2JC3/gold-trophy-and-stars-icon-over-white-background-colorful-desing-vector-HN2JC3.jpg"
+                            alt="" style=" margin: 0px 8px;">
+                        <p class="numscore">1000 XP</p>
+                    </div>
+                </span>
+            </div>
+            <br><br><br>
+            <div class="counter-box">
+                <h2>Streak Number: <span id="streak-number">5</span></h2>
+                <div class="beepers-container">
+                    <div class="beeper"></div>
+                    <div class="beeper"></div>
+                    <div class="beeper"></div>
+                    <div class="beeper"></div>
+                    <div class="beeper"></div>
+                    <div class="beeper"></div>
+                    <div class="beeper"></div>
+                </div>
+            </div>
+            <script>
+                let streakNumber = 5;
+                document.getElementById("streak-number").innerHTML = streakNumber;
+
+            </script>
+            <br><br>
+            <h3>Badges</h3>
+            <table>
+
+                <tr>
+                    <td>
+                        <div class="column1">
+                            <img src="https://github.com/KafiH/CYGroupProject/blob/main/public/img/badgeSilverStar.png?raw=true" alt="badge image"
+                                style="height:5em; width: 3em;">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="column1">
+                            <img src="https://github.com/KafiH/CYGroupProject/blob/main/public/img/badgeBronzeStar.png?raw=true" alt="badge image"
+                                style="height:5em; width: 3em;">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="column1">
+                            <img src="https://github.com/KafiH/CYGroupProject/blob/main/public/img/badgeSilverStar.png?raw=true" alt="badge image"
+                                style="height:5em; width: 3em; ">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="column1">
+                            <img src="https://github.com/KafiH/CYGroupProject/blob/main/public/img/badgeGoldStar.png?raw=true" alt="badge image"
+                                style="height:5em; width: 3em; ">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="column1">
+                            <img src="https://github.com/KafiH/CYGroupProject/blob/main/public/img/badgeBronzeStar.png?raw=true" alt="badge image"
+                                style="height:5em; width: 3em;">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="column1">
+                            <img src="https://github.com/KafiH/CYGroupProject/blob/main/public/img/badgeGoldStar.png?raw=true" alt="badge image"
+                                style="height:5em; width: 3em;">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="main-content">
+        <h4>CERTIFICATIONS</h4>
+        <div class="learning">
+            <a href=certificate.html>
+                <img class="htmlogo"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRYElfbKjgl3XOcMV7trwAo9eB7cxw4e1q7A&usqp=CAU"
+                    alt="" style="height:7em; width: 7em; margin: 0px 80px;">
+            </a>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                alt="" style="height:7em; width: 7em; margin: 0px 80px;">
+            <img src="https://thumbs.dreamstime.com/b/javascript-icon-logo-javascript-often-abbreviated-as-js-programming-language-conforms-to-ecmascript-specification-204759326.jpg"
+                alt="" style="height:7em; width: 7em; margin: 0px 80px;">
+            <h5>Courses In Progress</h5>
+            <div class="progress-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRYElfbKjgl3XOcMV7trwAo9eB7cxw4e1q7A&usqp=CAU"
+                    class="progress-icon">
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width:65%"></div>
+                    <div class="progress-bar-text">1000 XP</div>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="progress-container1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+                    class="progress-icon1">
+                <div class="progress-bar1">
+                    <div class="progress-bar-fill-1" style="width:33%"></div>
+                    <div class="progress-bar-text-1">500 XP</div>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="progress-container2">
+                <img src="https://thumbs.dreamstime.com/b/javascript-icon-logo-javascript-often-abbreviated-as-js-programming-language-conforms-to-ecmascript-specification-204759326.jpg"
+                    class="progress-icon2">
+                <div class="progress-bar2">
+                    <div class="progress-bar-fill-2" style="width:17%"></div>
+                    <div class="progress-bar-text-2">250 XP</div>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="codepen">
+                <p class="codepen" data-height="241.09765625" data-default-tab="html,result" data-slug-hash="bGjLoGN"
+                    data-editable="true" data-user="Hassan3k"
+                    style="height: 241.09765625px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/Hassan3k/pen/bGjLoGN">
+                            Untitled</a> by Hassan3k (<a href="https://codepen.io/Hassan3k">@Hassan3k</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                </p>
+                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+
+            
+                <!-- Footer -->
+                <footer class="text-center text-lg-start bg-dark text-white">
+
+
+                    <!-- Section: Links  -->
+                    <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                            <!-- Grid row -->
+                            <div class="row mt-3">
+                                <!-- Grid column -->
+                                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                    <!-- Content -->
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        <i class="fas fa-gem me-3 text-secondary"></i>KESBH School
+                                    </h6>
+                                    <p>
+                                        KESHB School is designed with training, testing, and learning in mind. To
+                                        facilitate reading and fundamental comprehension, examples could be simplified.
+                                    </p>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                    <!-- Links -->
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        Developers
+                                    </h6>
+                                    <p>
+                                        <a href="https://github.com/SammPreston" class="text-reset">Sammantha</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://github.com/KafiH" class="text-reset">Kafi</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://github.com/EbruKostekci" class="text-reset">Ebru</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://github.com/Hassan3k" class="text-reset">Hassan</a>
+                                    </p>
+                                    <p>
+                                        <a href="https://github.com/burakcersit" class="text-reset">Burak</a>
+                                    </p>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                    <!-- Links -->
+                                    <h6 class="text-uppercase fw-bold mb-4">
+                                        Useful links
+                                    </h6>
+                                    <p>
+                                        <a href="#!" class="text-reset">Profile</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Curriculum</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">About</a>
+                                    </p>
+                                    <p>
+                                        <a href="#!" class="text-reset">Help - Contact Us</a>
+                                    </p>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                    <!-- Links -->
+                                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                                    <p><i class="fas fa-home me-3 text-secondary"></i> Bayshore Dr, Ottawa, ON</p>
+                                    <p>
+                                        <i class="fas fa-envelope me-3 text-secondary"></i>
+                                        keshbschool@gmail.com
+                                    </p>
+                                    <p><i class="fas fa-phone me-3 text-secondary"></i> +1 647 573 15 15</p>
+                                    <p><i class="fas fa-print me-3 text-secondary"></i> +1 647 585 96 96</p>
+                                </div>
+                                <!-- Grid column -->
+                            </div>
+                            <!-- Grid row -->
+                        </div>
+                    </section>
+                    <!-- Section: Links  -->
+
+                    <!-- Copyright -->
+                    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+                        © 2023 Copyright:
+                        <a class="text-reset fw-bold" href="http://localhost:3001/landing">KESHBschool.com</a>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+                <!--Footer Link-->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                    crossorigin="anonymous"></script>
+                <!--Footer Link-->
+            </div>
+
+
+
+        
+    </div>
+</body>
+
+</html>
