@@ -39,7 +39,6 @@ app.get('/leaderboard', (req,res)=>{
 	res.render("leaderboard")
 })
 
-<<<<<<< HEAD
 app.get('/certificate', (req,res)=>{
 	res.render("certificate")
 })
