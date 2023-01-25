@@ -25,6 +25,9 @@ app.get('/summary', (req,res)=>{
 app.get('/contactus', (req,res)=>{
 	res.render("contactus")
 })
+app.get('/achiev', (req,res)=>{
+	res.render("achiev")
+})
 
 // -- Test Pages
 app.get('/nav', (req,res)=>{
