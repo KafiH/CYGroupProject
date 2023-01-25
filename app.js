@@ -39,10 +39,26 @@ app.get('/leaderboard', (req,res)=>{
 	res.render("leaderboard")
 })
 
+app.get('/certificate', (req,res)=>{
+	res.render("certificate")
+})
+
+app.get('/codepen', (req,res)=>{
+	res.render("codepen")
+})
+
+app.get('/login', (req,res)=>{
+	res.render("login")
+})
+
 app.get('/profile', (req,res)=>{
 	res.render("profile")
 })
 
+
+app.get('/signup', (req,res)=>{
+	res.render("signup")
+})
 
 // -- Test Pages
 app.get('/nav', (req,res)=>{
