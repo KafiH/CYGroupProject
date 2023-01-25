@@ -5,11 +5,12 @@ body{
 }
 /*Base Container*/
 #box{
-    margin-top: 150px;
+    margin-top: 110px;
     padding: 30px;
     height: 100%;
     width: 90%;
     background-color: rgb(240, 189, 122);
+    box-shadow: 0px 0px 20px  rgb(175, 161, 142); 
 }
 #redeemBox{
     margin-bottom:10px;
@@ -55,12 +56,15 @@ button:hover{
     border-left: 1px solid rgb(76, 7, 10);
     
 }
+
 /*Redeem Page*/
 table{
     padding: 40px;
     background-color: antiquewhite;
     align-self: center;
     /* border: 1px solid rgb(76, 7, 10); */
+    border-top: 1px solid rgb(76, 7, 10);
+    border-bottom: 1px solid rgb(76, 7, 10);
     border-radius: 10px;
 }
 tr:nth-child(even){
@@ -99,17 +103,11 @@ td{
 
 
 
-
-
-
-
-
-
-
 /*Shop Page*/
 /**/
 #title{
     /* border: 1px solid black; */
+    font-size: 3vw;
     text-align: center;
 
 }
@@ -118,30 +116,43 @@ td{
     flex-direction: column;
 }
 
-.subHead{text-align: center;
+.subHead{
+    
+    font-size: 2.5vw;
+    text-align: center;
     /* border: 1px solid black; */
 }
 .picBox{
     /* border: 1px solid black; */
     width: 23%;
     display: flex;
+    font-size: 1.5vw;
+    text-align: center;
+    flex-direction: column;
     justify-content: center;
 }
 .proPic{
-    padding: 10px;
+    padding: 8px;
     width: 100%;
 }
 #userDesigns{
-    padding: 20px 0 70px 0;
+    padding: 20px 0 40px 0;
     background-color: antiquewhite;
-    /* border: 1px solid black; */
+    border-top: 1px solid rgb(76, 7, 10);
+    border-bottom: 1px solid rgb(76, 7, 10);
+    border-radius: 10px;
+    
     display: flex;
     justify-content: space-evenly;
 }
 
 #devDesigns{
-    padding: 20px 0 70px 0;
+    padding: 20px 0 40px 0;
     background-color: antiquewhite;
+    border-top: 1px solid rgb(76, 7, 10);
+    border-bottom: 1px solid rgb(76, 7, 10);
+    border-radius: 10px;
+    
     display: flex;
     justify-content: space-evenly;
    

@@ -5,12 +5,6 @@ app.set("view engine", "ejs")
 app.use(express.static(__dirname + '/public'));
 
 
-// -- SAMM [commented out res.send so our page opens on landing].
-
-// app.get('/', (req,res)=>{
-// 	res.send("Welcome to our Project")
-// })
-
 // -- SAMM [changed landing link to initial rout '/']
 app.get('/', (req,res)=>{
 	res.render("landing")
@@ -41,6 +35,30 @@ app.get('/about', (req,res)=>{
 	res.render("about")
 })
 
+app.get('/leaderboard', (req,res)=>{
+	res.render("leaderboard")
+})
+
+app.get('/certificate', (req,res)=>{
+	res.render("certificate")
+})
+
+app.get('/codepen', (req,res)=>{
+	res.render("codepen")
+})
+
+app.get('/login', (req,res)=>{
+	res.render("login")
+})
+
+app.get('/profile', (req,res)=>{
+	res.render("profile")
+})
+
+
+app.get('/signup', (req,res)=>{
+	res.render("signup")
+})
 
 // -- Test Pages
 app.get('/nav', (req,res)=>{
