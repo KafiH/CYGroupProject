@@ -44,7 +44,7 @@ redeemBox.innerHTML=`
                     <img src="/img/badgeGoldStar.png" class="badge">
                 </div>
             </td>
-            <td><b>50xp</b></td>
+            <td><b>100xp</b></td>
         </tr>
         <tr>
             <td>First Quiz Attempt</td>
@@ -121,7 +121,7 @@ Array.from(buttons).forEach(function(button){
                                 <img src="/img/badgeGoldStar.png" class="badge">
                             </div>
                         </td>
-                        <td><b>50xp</b></td>
+                        <td><b>100xp</b></td>
                     </tr>
                     <tr>
                         <td>First Quiz Attempt</td>
@@ -152,15 +152,33 @@ Array.from(buttons).forEach(function(button){
                 <div id="display">
                     <h3 class="subHead">User Designs</h3>
                     <div id="userDesigns">
-                        <div class="picBox"><img src="/img/outOfPlace.png" class="proPic"></div>
-                        <div class="picBox"><img src="/img/banjo.png" class="proPic"></div>
-                        <div class="picBox"><img src="/img/hipGirl.png" class="proPic"></div>
+                        <div class="picBox">
+                        <img src="/img/outOfPlace.png" class="proPic">
+                        <p><b>Out of Place<br>1000XP</b></p>
+                        </div>
+                        <div class="picBox">
+                        <img src="/img/banjo.png" class="proPic">
+                        <p><b>QT 3.14<br>1000XP</b></p>
+                        </div>
+                        <div class="picBox">
+                        <img src="/img/hipGirl.png" class="proPic">
+                        <p><b>Hip Girl<br>1000XP</b></p>
+                        </div>
                     </div>
                     <h3 class="subHead">Dev Designs</h3>
                     <div id="devDesigns">
-                        <div class="picBox"><img src="/img/newEgg.png" class="proPic"></div>
-                        <div class="picBox"><img src="/img/abstract.png" class="proPic"></div>
-                        <div class="picBox"><img src="/img/java.png" class="proPic"></div>
+                        <div class="picBox">
+                        <img src="/img/newEgg.png" class="proPic">
+                        <p><b>New Egg<br>500XP</b></p>
+                        </div>
+                        <div class="picBox">
+                        <img src="/img/abstract.png" class="proPic">
+                        <p><b>Abstract<br>500XP</b></p>
+                        </div>
+                        <div class="picBox">
+                        <img src="/img/java.png" class="proPic">
+                        <p><b>Coffee Break<br>500XP</b></p>
+                        </div>
                     </div>                
                 </div>
                 
