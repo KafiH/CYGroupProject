@@ -41,6 +41,10 @@ app.get('/about', (req,res)=>{
 	res.render("about")
 })
 
+app.get('/leaderboard', (req,res)=>{
+	res.render("leaderboard")
+})
+
 
 // -- Test Pages
 app.get('/nav', (req,res)=>{
