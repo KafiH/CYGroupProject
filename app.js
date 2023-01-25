@@ -39,6 +39,7 @@ app.get('/leaderboard', (req,res)=>{
 	res.render("leaderboard")
 })
 
+<<<<<<< HEAD
 app.get('/certificate', (req,res)=>{
 	res.render("certificate")
 })
@@ -54,6 +55,7 @@ app.get('/login', (req,res)=>{
 app.get('/profile', (req,res)=>{
 	res.render("profile")
 })
+
 
 app.get('/signup', (req,res)=>{
 	res.render("signup")
