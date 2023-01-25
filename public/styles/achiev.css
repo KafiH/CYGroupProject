@@ -1,0 +1,153 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+/*Base Container*/
+#box{
+    margin-top: 150px;
+    padding: 30px;
+    height: 100%;
+    width: 90%;
+    background-color: rgb(240, 189, 122);
+}
+#redeemBox{
+    margin-bottom:10px;
+    padding: 30px;
+    height: 80%;
+    /* width: 100%; */
+    background-color: rgb(238, 218, 192);
+    align-self: center;
+    border-right: 1px solid rgb(76, 7, 10);
+    border-left: 1px solid rgb(76, 7, 10);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+}
+
+
+/* Navigation Buttons */
+button{
+    width: 110px;
+    height: 80px;
+    color: rgb(238, 218, 192);
+    font-size: 1.5rem;
+    background-color: #824621;
+    border: 1px solid rgb(240, 189, 122);
+    border-radius: 10%;   
+    
+}
+button:hover{
+    color:rgb(76, 7, 10);
+    background-color: rgb(238, 218, 192);
+    border-top: 1px solid rgb(76, 7, 10);
+    border-right: 1px solid rgb(76, 7, 10);
+    border-left: 1px solid rgb(76, 7, 10);
+}
+.focus{
+    color:rgb(76, 7, 10);;
+    background-color: rgb(238, 218, 192);
+    border-top: 1px solid rgb(76, 7, 10);
+    border-right: 1px solid rgb(76, 7, 10);
+    border-left: 1px solid rgb(76, 7, 10);
+    
+}
+/*Redeem Page*/
+table{
+    padding: 40px;
+    background-color: antiquewhite;
+    align-self: center;
+    /* border: 1px solid rgb(76, 7, 10); */
+    border-radius: 10px;
+}
+tr:nth-child(even){
+    background-color: rgba(216, 199, 164, 0.716);
+}
+th{
+    font-size: 2vw;
+}
+td{
+    margin: 10px;
+    padding-left: 20px;
+    font-size: 1.5vw;
+    /* border: 1px solid black; */
+}
+.imgCont{
+    width: 10%;
+}
+.badgeCont{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+.badgeCont>div{
+    width: 18%;
+    
+    /* border: 1px solid black; */
+}
+.badge{
+    width: 100%;
+    position: relative;
+    right: 40px;
+}
+.present{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*Shop Page*/
+/**/
+#title{
+    /* border: 1px solid black; */
+    text-align: center;
+
+}
+#display{
+    display:flex;
+    flex-direction: column;
+}
+
+.subHead{text-align: center;
+    /* border: 1px solid black; */
+}
+.picBox{
+    /* border: 1px solid black; */
+    width: 23%;
+    display: flex;
+    justify-content: center;
+}
+.proPic{
+    padding: 10px;
+    width: 100%;
+}
+#userDesigns{
+    padding: 20px 0 70px 0;
+    background-color: antiquewhite;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#devDesigns{
+    padding: 20px 0 70px 0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+
+
+

@@ -35,7 +35,7 @@ leftNavGroup.appendChild(profileIcon);
 
 // -- # Redemptions Link
 const achievLink = document.createElement('a');
-    achievLink.href="/shop";
+    achievLink.href="/achiev";
     achievLink.id="achievLink";
 leftNavGroup.appendChild(achievLink);
 
