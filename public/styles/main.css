@@ -8,15 +8,21 @@
 }
 
 body {
-    background-color: #9a7b4f;
+    background-color: antiquewhite;
 }
 
+.title{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
 
 
 #examp3 {
     width: 240px;
     border-style: solid ;
-    border-width: 2px;
+    border-width: 1px;
 
     font-weight: bolder;
     padding: 5px;
@@ -28,9 +34,9 @@ body {
 #examp1 {
 
     text-align: left;
-    padding: 5px;
-    border-style: solid;
-    background-color: #dec096;
+    padding: 15px;
+    
+    background-color: rgb(231, 208, 176);
     border-radius: 25px;
     width: 1000px;
     margin-left: auto;
@@ -41,16 +47,25 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding: 5px;
-    border-style: solid;
-    background-color: #dec096;
+    padding: 15px;
+    
+    background-color: rgb(231, 208, 176);
     border-radius: 25px;
     width: 1000px;
-    padding: 5px;
+   
 }
 
-#examp4 {
-    width: 950px;
+
+#examp6 {
+
+    text-align: left;
+    padding: 15px;
+    
+    background-color: rgb(231, 208, 176);
+    border-radius: 25px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #intro {
@@ -59,8 +74,8 @@ body {
 }
 
 #examp5 {
-    border-style: solid;
-    background-color: #dec096;
+    
+    background-color: rgb(231, 208, 176);
     border-radius: 25px;
     width: 990px;
     padding: 15px;

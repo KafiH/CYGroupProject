@@ -1,5 +1,5 @@
 body{
-    background-color:#9a7b4f ;
+    background-color:antiquewhite ;
 }
 #dev{
     width: 900px;
@@ -8,7 +8,7 @@ body{
     margin-right: auto;
     padding: 5px;
     border-style: solid ;
-    background-color:#dec096;
+    background-color:rgb(231, 208, 176);
     border-radius: 25px;
     text-align: center;   
 }
@@ -17,7 +17,7 @@ body{
         width:4%;
         padding: 50px;
         border-radius: 50%;
-        background-color: #9c7743;
+        background-color: rgb(231, 208, 176);
         position: relative;
         float: left;
         border-style: solid ;
@@ -37,7 +37,7 @@ body{
 #info{
 text-align: left;
 margin-left: auto;
-background-color:#dec096;
+background-color:rgb(231, 208, 176);
 padding: 20px;
 border-style: solid ;
 border-radius: 25px;
