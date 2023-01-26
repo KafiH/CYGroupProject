@@ -1,6 +1,6 @@
-
+/* 
 /*MAIN DIV*/
-#nav{
+/* #nav{
   padding: 5px 0;
   width: 100%;
   background-color:  #824621;
@@ -14,10 +14,10 @@
   top: 0;
   left:0;
   
-}
+} */
 
 /*LEFT NAV*/
-#leftNavGroup{
+/* #leftNavGroup{
   border-bottom: 5px double #9d7c67;
   align-items: center;
   display: flex;
@@ -77,10 +77,10 @@
 }
 #userScore:hover{
   color: rgb(76, 7, 10);
-}
+} */
 
 /*HOME*/
-#homeLink{
+/* #homeLink{
   padding: 10px;
   font-size: 2em;
   color: rgb(76, 7, 10);
@@ -98,10 +98,10 @@
   color:#c29e88;
   border-right: 5px double rgb(76, 7, 10);
   border-left: 5px double rgb(76, 7, 10);
-}
+} */
 
 /*RIGHT NAV GROUP*/
-#rightNavGroup{
+/* #rightNavGroup{
 
   border-bottom: 5px double #9d7c67;
 }
@@ -125,10 +125,12 @@
   position: relative;
   z-index: -11;
   top: 100%;
-}
+}  */
 
 #master{
-  width: auto;
+  
+  position: relative;
+  top: 110px;
 }
 
 .profpic {
@@ -158,7 +160,9 @@
 
 .column {
     height: 50em;
-    float: right;
+    position: relative;
+    right: 70px;
+    float: left;
     width: 35%;
     background-color:rgb(240, 189, 122);
     border: thin solid black; /*adds a thin border*/

@@ -60,6 +60,10 @@ app.get('/signup', (req,res)=>{
 	res.render("signup")
 })
 
+app.get('/copyprofile', (req,res)=>{
+	res.render("copyprofile")
+})
+
 // -- Test Pages
 app.get('/nav', (req,res)=>{
 	res.render("nav")
