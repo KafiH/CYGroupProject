@@ -33,10 +33,10 @@ By getting a deeper understanding of the user's specialties and interests, hirin
 
 ## Pages
 
-### The Curriculum:
+### Curriculum:
 * In this version, our curriculum follows a Roadmap to Web Design. Apart from the coding languages, we will have segments for ‘how to learn’ code,  what to expect as a beginner, setting up editors, connecting to GitHub, and working in a team (SCRUM).
 
-### The Quiz:
+### Quiz:
 * A quiz will appear at the end of each module to help our users visualize their progress. The badges represent their understanding of what they have retained. 
 * It is important to note that users will be able to progress through the modules regardless of receiving a passing grade.
 
