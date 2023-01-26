@@ -1,4 +1,4 @@
-### KESHB Schools
+# KESHB Schools
 **Welcome to KESHB Schools!**
 * Intake-8 from Code Youth has designed a gamified curriculum application that puts its users progress first.
 * We encourage our user's progression by celebrating each learning milestone through an incremental reward system: merit points, badges, and certifications.
@@ -16,27 +16,27 @@
 
 
 
-# Steakholders
+## Steakholders
 
-# The Users:
+### The Users:
 * New Developers. Whether they are looking to improve their skills, searching for a career path, or just having fun!
 * This application provides them with a trackable public learning experience to present to Hiring Managers.
 * Our tracking system provides Developers with the analytics to show them where they excel and what needs improvement. Their profiles can be linked to their resume to show proof of education.
 * From the user’s profile, potential clients and recruiters can follow a link to their GitHub as well as view a sample of their most recent work on an embedded codepen
 
-# The Recruiters:
+### The Recruiters:
 **Schools:**
 * Can integrate this into their curriculum to track their student's progress. Through the points, badge, and certification system teachers are able to see where students are spending their time and where they may need help.
 **Hiring Managers:**
 * Can use this as a reference point for new applicants, as proof of education.
 By getting a deeper understanding of the user's specialties and interests, hiring managers can better place applicants.
 
-# Pages
+## Pages
 
-# The Curriculum:
+### The Curriculum:
 * In this version, our curriculum follows a Roadmap to Web Design. Apart from the coding languages, we will have segments for ‘how to learn’ code,  what to expect as a beginner, setting up editors, connecting to GitHub, and working in a team (SCRUM).
 
-# The Quiz:
+### The Quiz:
 * A quiz will appear at the end of each module to help our users visualize their progress. The badges represent their understanding of what they have retained. 
 * It is important to note that users will be able to progress through the modules regardless of receiving a passing grade.
 
