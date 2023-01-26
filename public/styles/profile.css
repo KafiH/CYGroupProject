@@ -1,136 +1,7 @@
-/* 
-/*MAIN DIV*/
-/* #nav{
-  padding: 5px 0;
-  width: 100%;
-  background-color:  #824621;
-  box-shadow: -5px 0 10px 10px rgba(60, 25, 4, 0.786);
-  
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
-  top: 0;
-  left:0;
-  
-} */
-
-/*LEFT NAV*/
-/* #leftNavGroup{
-  border-bottom: 5px double #9d7c67;
-  align-items: center;
-  display: flex;
-  align-content: center;
-}
-#leftNavGroup:hover{
-  border-bottom: 5px double rgb(76, 7, 10);
-}
-#proCon{
-  margin: 0  .5vw;
-  height: 3.8vw;
-  width: 3.8vw;
-  
-  font-size: 2rem;
-  text-decoration: none;
-  color:#c29e88;
-  
-  background-color: rgb(34, 69, 73);
-  border: 4px double rgb(55, 161, 182);
-  border-radius: 50%;
-  
-  float:left;
-  display: flex;
-  justify-content: center;
-}
-#proCon:hover{
-  color:rgb(247, 152, 0);
-  border: 4px double rgb(247, 152, 0);
-}
-#achievLink{
-  margin: 0 2vw;
-  padding: 3px;
-  width: 3.6vw;
-  height: 3.6vw;
-  
-  border: 3px solid #c29e88;
-
-  display: block;
-  contain: content;
-  float: left;
-  position :relative;
-  bottom: 2px;
-}
-#achievLink:hover{
- border: 3px solid rgb(76, 7, 10);
-}
-#achiev{
-  width: 100%;
-}
-
-#userScore{
-  margin: 0  1vw;
-  font-size:1.5em;
-  color:#c29e88;
-  text-decoration: none;
-  font-family: 'Shadows Into Light', cursive;
-}
-#userScore:hover{
-  color: rgb(76, 7, 10);
-} */
-
-/*HOME*/
-/* #homeLink{
-  padding: 10px;
-  font-size: 2em;
-  color: rgb(76, 7, 10);
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  
-  border-right: 5px double #9d7c67;
-  border-left: 5px double #9d7c67;
-  
-  display: flex;
-  align-items: center;
- 
-}
-#homeLink:hover{
-  color:#c29e88;
-  border-right: 5px double rgb(76, 7, 10);
-  border-left: 5px double rgb(76, 7, 10);
-} */
-
-/*RIGHT NAV GROUP*/
-/* #rightNavGroup{
-
-  border-bottom: 5px double #9d7c67;
-}
-#rightNavGroup:hover{
-  border-bottom: 5px double rgb(76, 7, 10);
-}
-.rightNav{
-  padding: 1vw;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
-  color:#c29e88;
-  text-decoration: none;
-  text-align: center;
-  position: relative;
-  top: 12px;
-}
-.rightNav:hover{
-  color: rgb(76, 7, 10);
-}
-.newnav{
-  position: relative;
-  z-index: -11;
-  top: 100%;
-}  */
-
 #master{
   
   position: relative;
-  top: 110px;
+  top: 80px;
 }
 
 .profpic {
@@ -159,9 +30,9 @@
 }
 
 .column {
-    height: 50em;
-    position: relative;
-    right: 70px;
+    height: 55em;
+    /* position: relative;
+    right: 70px; */
     float: left;
     width: 35%;
     background-color:rgb(240, 189, 122);
@@ -215,7 +86,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
   }
   .beeper {
@@ -287,14 +158,14 @@ h5{
     font-size: 30px;
 }
 .progress-container {
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
   }
   
   .progress-icon {
     position: absolute;
-    left: 10px;
+    left: 540px;
     width: 60px;
     margin-top: 40px;
   }
@@ -326,6 +197,7 @@ h5{
     text-align: center;
   }
 /* second progress bar CSS */
+
 
   .progress-container1 {
     position: relative;
@@ -406,8 +278,11 @@ h5{
 .codepen {
     width: 59%;
     height: 300px;
-    float: left;
-    padding-left: 10%;
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+    /* float: left;
+    padding-left: 10%; */
 }
 
     footer{
