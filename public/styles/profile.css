@@ -127,12 +127,8 @@
   top: 100%;
 }
 
-.container {
- 
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
+#master{
+  width: auto;
 }
 
 .profpic {
@@ -162,7 +158,7 @@
 
 .column {
     height: 50em;
-    float: left;
+    float: right;
     width: 35%;
     background-color:rgb(240, 189, 122);
     border: thin solid black; /*adds a thin border*/
@@ -175,19 +171,22 @@ body{
 .text-box {
     background-color: white;
 
+
 }
 
 .social-icons {
     display: flex;
     align-items: center;
+    float: left;
+    padding: 10px;
   }
   
   .score {
     display: flex;
-    align-items: center;
-    position: absolute; /* allow the star image to be positioned absolutely */
-    left: 29%; /* position the star image in the middle of the social-icons container */
-    top: 49%;
+    align-items: right;
+    position: relative; /* allow the star image to be positioned absolutely */
+    left: 40%; /* position the star image in the middle of the social-icons container */
+    bottom: 10%;
     
     transform: translateX(-50%); /* move the trophy image to the left to center it */
   }
