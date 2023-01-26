@@ -18,13 +18,13 @@
 
 ## Steakholders
 
-### The Users:
-* New Developers. Whether they are looking to improve their skills, searching for a career path, or just having fun!
+### Users:
+* Whether they are looking to improve their skills, searching for a career path, or just having fun!
 * This application provides them with a trackable public learning experience to present to Hiring Managers.
 * Our tracking system provides Developers with the analytics to show them where they excel and what needs improvement. Their profiles can be linked to their resume to show proof of education.
 * From the user’s profile, potential clients and recruiters can follow a link to their GitHub as well as view a sample of their most recent work on an embedded codepen
 
-### The Recruiters:
+### Recruiters:
 **Schools:**
 * Can integrate this into their curriculum to track their student's progress. Through the points, badge, and certification system teachers are able to see where students are spending their time and where they may need help.
 **Hiring Managers:**
@@ -42,14 +42,14 @@ By getting a deeper understanding of the user's specialties and interests, hirin
 
 ### Profile:
 Each profile will reflect user progress, as well as their growing specializations as they progress through the curriculum.
-**The Profile Card:**
+**Profile Card:**
 * Profile photo (designed in-app)
 * identification
 * Social links
 * Merit points
 * Streaks to keep users coming back every day
 * Badges
-**The Certifications Container:**
+**Certifications Container:**
 * Completed courses
 * The Courses in Progress Container:
 * Reflects user progression through each course
@@ -63,7 +63,7 @@ The profile Photos:
 * Users can submit their own designs (to be reviewed by the admin)
 * Users can set their prices and sell them in the shop for more merit points
 * By purchasing other users' designs we encourage them to support each other by displaying them on their profile
-**The Themes:**
+**Themes:**
 * Developers will create additional themes for user profiles to reflect the user's personality. Users will also be able to submit their themes on review of the shop.
 
 
@@ -71,6 +71,6 @@ The profile Photos:
 * To cultivate a space of healthy competition we added a leaderboard for users to get the top space. At the end of each streak, the top three users will receive a prize of a profile picture to display on their profile. To encourage other users to compete any user to make it onto the leader board will receive a badge.
 
 ## Future Features
-**The Group Project**
+**Group Projects**
 * Applying the SCRUM theory learned in the curriculum users will be encouraged to complete “group projects”. 
 * Using the prompts provided by the curriculum, users will be encouraged to connect through discord to collaborate. 
