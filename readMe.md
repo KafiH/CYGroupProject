@@ -15,8 +15,13 @@
 * An icon will be displayed on the player's profile which will hold a downloadable certificate to be shared on social media / linked to a resume.
 
 
+### ScreenShort 
+![alt text](./public/img/1.jpg)
+![alt text](./public/img/2.jpg)
+![alt text](./public/img/3.jpg)
+![alt text](./public/img/4.jpg)
+![alt text](./public/img/5.jpg)
 
-## Steakholders
 
 ### Players:
 * Whether they are looking to improve their skills, searching for a career path, or just having fun!
@@ -54,22 +59,21 @@ Each profile will reflect user progress, as well as their growing specialization
 **Progress Container:**
 * Reflects user progression through each course
 
-### Leader Board:
-* To cultivate a space of healthy competition we added a leaderboard for users to get the top space. At the end of each streak, the top three users will receive a prize of a profile picture to display on their profile. To encourage other users to compete any user to make it onto the leader board will receive a badge.
-
 ### Achievements:
 #### Redeem:
 Users can come here to view their achievements and redeem merit points
 #### Shop:
 **The profile Photos:**
 * Profile photos are unique designs purchasable with redemption points.
-* Players can submit their own designs (to be reviewed by the admin)
-* Players can set their prices and sell them in the shop for more merit points
-* We encourage players to support one another by purchasing others unique designs to be displayed on their profile page
+* Users can submit their own designs (to be reviewed by the admin)
+* Users can set their prices and sell them in the shop for more merit points
+* By purchasing other users' designs we encourage them to support each other by displaying them on their profile
 **Themes:**
 * Developers will create additional themes for user profiles to reflect the user's personality. Users will also be able to submit their themes on review of the shop.
 
 
+### Leader Board:
+* To cultivate a space of healthy competition we added a leaderboard for users to get the top space. At the end of each streak, the top three users will receive a prize of a profile picture to display on their profile. To encourage other users to compete any user to make it onto the leader board will receive a badge.
 
 ## Future Features
 **Group Projects**
