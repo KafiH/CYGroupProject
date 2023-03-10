@@ -15,7 +15,7 @@
 * An icon will be displayed on the player's profile which will hold a downloadable certificate to be shared on social media / linked to a resume.
 
 
-### ScreenShort 
+### Screenshot 
 ![alt text](./public/img/1.jpg)
 ![alt text](./public/img/2.jpg)
 ![alt text](./public/img/3.jpg)
